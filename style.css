@@ -25,10 +25,16 @@ body {
 .texto {
     padding: 15px 25px;
 }
+.imagen {
+    background-color: hsl(277, 85%, 26%);
+    border-radius:  10px 10px 0 0;
+}
 
 .imagen img {
     width: 100%;
+    opacity: 0.5;
     border-radius: 10px 10px 0 0;
+    margin: 0 0 -5px 0;
     
     
 }
