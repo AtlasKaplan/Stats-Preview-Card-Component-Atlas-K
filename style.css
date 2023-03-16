@@ -17,7 +17,7 @@ body {
     background-color: hsl(244, 38%, 16%);
     text-align: center;
     width: 85%;
-    max-width: 450px;
+    max-width: 28.125rem;
     margin: 25px auto;
     border-radius: 10px;
 }
@@ -76,7 +76,7 @@ footer {
     margin-top: 1rem;
 }
 
-@media ( min-width:1188px ) {
+@media ( min-width: 74.25rem ) {
     
 
     .container {
@@ -84,8 +84,8 @@ footer {
         flex-direction: row-reverse;
         text-align: left;
         max-width: 62.5rem;
-        margin-top: 250px;
-        height: 375px;
+        margin-top: 15.625rem;
+        height: 23.4375rem;
         
     
 
@@ -119,6 +119,6 @@ footer {
         flex-direction: column;
         height: 6.25rem;
         flex-wrap: wrap;
-        margin-top: 50px;
+        margin-top: 3.125rem;
     }
 }
