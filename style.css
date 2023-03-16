@@ -71,13 +71,6 @@ span{
 }
 
 
-
-
-
-
-
-
-
 footer {
     text-align: center;
     margin-top: 1rem;
@@ -94,11 +87,29 @@ footer {
     }
 
     .imagen {
-         min-width: 50%;
+        min-width: 50%;
+        border-radius: 0 10px 10px 0;
     }
 
+.imagen img {       
+    border-radius: 0 10px 10px 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    .texto h1 span {
+        font-size: 2rem;
+    }
+    
+    
+    .texto {
+        padding: 50px 70px 0 50px;
+    }
+    
+    
+    
     .stats {
-                
         
     }
 }
